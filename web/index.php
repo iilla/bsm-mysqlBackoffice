@@ -1,4 +1,4 @@
-<?php //Remember you used short_tags in this project. @Blackwood
+<?php //Remember you used short_tags in this project. @iilla
 	include "../config/bsm_ubicador.php";
 	include CONF."bsm_settings.php";
 	
