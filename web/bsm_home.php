@@ -29,22 +29,12 @@ if (isset($_REQUEST['logout']) && $_REQUEST['logout']==1 && $ADM_SEC==1) {
 		
 		<link rel="stylesheet" href="<?=CSS."bsm_basestyle.css"?>" type="text/css" media="screen, projection, print" />	
 		<link rel="stylesheet" href="<?=CSS."bsm_style.css"?>" type="text/css" media="screen, projection, print" />
-		
-		
 
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 		<!-- <script type="text/javascript" src="<?=JS."jquery-1.9.1.min.js"?>"></script> -->
 		<script type="text/javascript" src="<?=JS."bsm_scripts.js"?>"></script>
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-1LD68LTBRZ"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
 
-		  gtag('config', 'G-1LD68LTBRZ');
-		</script>
 	</head>
 	<body>
 		<? require_once CONF."bsm_database.php"; ?>
